@@ -1,74 +1,147 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="ru">
 
-  </head>
-	<body>
-    <div class="languages">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+  <style>
+    .flag-icon-background {
+      background-size: contain;
+      background-position: 50%;
+      background-repeat: no-repeat;
+    }
+
+    .flag-icon {
+      background-size: contain;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      position: relative;
+      display: inline-block;
+      width: 1.33333333em;
+      line-height: 1em;
+    }
+
+    .flag-icon:before {
+      content: "\00a0";
+    }
+
+    .flag-icon-ru {
+      background-image: url(icons/ru.svg);
+    }
+
+    .flag-icon-gb {
+      background-image: url(icons/gb.svg);
+    }
+
+    .flag-icon-de {
+      background-image: url(icons/de.svg);
+    }
+
+    .flag-icon-pl {
+      background-image: url(icons/pl.svg);
+    }
+
+    .flag-icon-es {
+      background-image: url(icons/es.svg);
+    }
+
+    .flag-icon-fr {
+      background-image: url(icons/fr.svg);
+    }
+
+    .flag-icon-it {
+      background-image: url(icons/it.svg);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid languages">
+    <div class="row justify-content-center">
+      <div class="col-6">
+        <span class="flag-icon flag-icon-ru"></span>
+        <span class="flag-icon flag-icon-pl"></span>
+        <span class="flag-icon flag-icon-gb"></span>
+        <span class="flag-icon flag-icon-de"></span>
+        <span class="flag-icon flag-icon-es"></span>
+        <span class="flag-icon flag-icon-fr"></span>
+        <span class="flag-icon flag-icon-it"></span>
+
+      </div>
     </div>
 
-    <div class="comparison_table">
-      <table>
-        <thead>
-          <tr>
-            <th>
-              Русский
-            </th>
-            <th>
-              Английский
-            </th>
-            <th>
-              Немецкий
-            </th>
-            <th>
-              Испанский
-            </th>
-            <th>
-              Испанский
-            </th>
-            <th>
-              Польский
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              Алфавит
-            </td>
-            <td>
-              Кириллица, необычные буквы: Щ, Ъ, Э, Ё
-            </td>
-            <td>
-              Латиница, необычные буквы: ö, ü, 
-            </td>
-            
-          </tr>
+  </div>
 
-          <tr>
-            <td>
-              Алфавит
-            </td>
-          </tr>
+  <div class="comparison_table">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>
+            Язык/особенность
+          </th>
+          <th>
+            Русский
+          </th>
+          <th>
+            Польский
+          </th>
+          <th>
+            Английский
+          </th>
+          <th>
+            Немецкий
+          </th>
+          <th>
+            Испанский
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Алфавит
+          </td>
+          <td>
+            Кириллица, необычные буквы: Щ, Ъ, Э, Ё
+          </td>
+          <td>
+            Латиница, необычные буквы: ö, ü,
+          </td>
 
-          <tr>
-          </tr>
-          <tr>
-          </tr>
-          <tr>
-          </tr>
-          <tr>
-          </tr>
-          <tr>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+        </tr>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <tr>
+          <td>
+            Алфавит
+          </td>
+        </tr>
 
-  </body>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
