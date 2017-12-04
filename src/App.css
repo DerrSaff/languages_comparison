@@ -84,3 +84,7 @@ td, th {
 li {
   list-style-type: none;
 }
+
+.centered-text {
+  text-align: center;
+}

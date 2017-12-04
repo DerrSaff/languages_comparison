@@ -43,7 +43,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Характеристика языка
             </td>
-            <td rowSpan="50" className="no-language-selected">
+            <td rowSpan="50" className="no-language-selected centered-text">
               Выберите язык из списка сверху
             </td>
             <td className="table-success russian">
