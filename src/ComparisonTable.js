@@ -39,7 +39,7 @@ export default class ComparisonTable extends Component {
         </thead>
         <tbody>
 
-        <tr>
+          <tr>
             <td className="language-feature category">
               Характеристика языка
             </td>
@@ -383,7 +383,8 @@ export default class ComparisonTable extends Component {
               Характеристика
             </td>
             <td className="table-success russian">
-              Может иметь краткую форму. <br/>
+              Может иметь краткую форму.
+              <br/>
               Три разряда прилагательных:
               <ul>
                 <li>качественные</li>
@@ -450,6 +451,49 @@ export default class ComparisonTable extends Component {
             </td>
             <td className="table-success russian">
               Положительная, сравнительная, превосходная.
+            </td>
+            <td className="polish"></td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature category">
+              Имя числительное
+            </td>
+            <td className="service-cell" colspan="8"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Характеристика
+            </td>
+            <td className="table-success russian">
+              Делится на четыре разряда:
+              <ul>
+                <li>количественные,</li>
+                <li>собирательные,</li>
+                <li>порядковые,</li>
+                <li>дробные.</li>
+              </ul>
+            </td>
+            <td className="polish"></td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Сочетание
+            </td>
+            <td className="table-danger russian">
+              Изменяется по числу, роду, падежу.
             </td>
             <td className="polish"></td>
             <td className="english"></td>
