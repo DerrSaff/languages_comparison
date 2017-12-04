@@ -81,6 +81,11 @@ td, th {
   text-align: right;
 }
 
+.category {
+  background-color: #0c2b49;
+  color: white;
+}
+
 li {
   list-style-type: none;
 }

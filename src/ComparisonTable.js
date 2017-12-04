@@ -40,7 +40,7 @@ export default class ComparisonTable extends Component {
         <tbody>
 
         <tr>
-            <td className="language-feature">
+            <td className="language-feature category">
               Характеристика языка
             </td>
             <td rowSpan="50" className="no-language-selected centered-text">
@@ -172,7 +172,7 @@ export default class ComparisonTable extends Component {
           </tr>
 
           <tr>
-            <td className="language-feature">
+            <td className="language-feature category">
               Имя существительное
             </td>
             <td className="service-cell" colspan="8"></td>
@@ -260,7 +260,7 @@ export default class ComparisonTable extends Component {
           </tr>
 
           <tr>
-            <td className="language-feature">
+            <td className="language-feature category">
               Глагол
             </td>
             <td className="service-cell" colspan="8"></td>
@@ -372,7 +372,7 @@ export default class ComparisonTable extends Component {
           </tr>
 
           <tr>
-            <td className="language-feature">
+            <td className="language-feature category">
               Имя прилагательное
             </td>
             <td className="service-cell" colspan="8"></td>
@@ -380,7 +380,7 @@ export default class ComparisonTable extends Component {
 
           <tr>
             <td className="language-feature">
-              Характеристика языка
+              Характеристика
             </td>
             <td className="table-success russian">
               Может иметь краткую форму. <br/>
