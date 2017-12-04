@@ -43,7 +43,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Характеристика языка
             </td>
-            <td rowSpan="19" className="no-language-selected">
+            <td rowSpan="50" className="no-language-selected">
               Выберите язык из списка сверху
             </td>
             <td className="table-success russian">
@@ -370,6 +370,95 @@ export default class ComparisonTable extends Component {
             <td className="french"></td>
             <td className="italian"></td>
           </tr>
+
+          <tr>
+            <td className="language-feature">
+              Имя прилагательное
+            </td>
+            <td className="service-cell" colspan="8"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Характеристика языка
+            </td>
+            <td className="table-success russian">
+              Может иметь краткую форму. <br/>
+              Три разряда прилагательных:
+              <ul>
+                <li>качественные</li>
+                <li>относительные</li>
+                <li>притяжательные</li>
+              </ul>
+            </td>
+            <td className="polish"></td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Род
+            </td>
+            <td className="table-success russian">
+              Три: мужской, женский, средний.
+            </td>
+            <td className="polish"></td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Падеж
+            </td>
+            <td className="table-warning russian">
+              Склоняется по падежам в зависимости от существительного.
+            </td>
+            <td className="polish"></td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Число
+            </td>
+            <td className="table-success russian">
+              Два: единственное, множественное.
+            </td>
+            <td className="polish"></td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Степени сравнения
+            </td>
+            <td className="table-success russian">
+              Положительная, сравнительная, превосходная.
+            </td>
+            <td className="polish"></td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
+          </tr>
+
         </tbody>
       </table>
     )
