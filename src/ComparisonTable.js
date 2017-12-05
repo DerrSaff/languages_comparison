@@ -549,8 +549,8 @@ export default class ComparisonTable extends Component {
               Характеристика
             </td>
             <td className="table-success russian">
-              Неизменяемое. Делятся на обстоятельственные и определительные с несколькими подгруппами у каждых.
-              Качественные наречия, образованные от качественных прилагательных, имеют степени сравнения (сравнительную, превосходную).
+              Неизменяемое. Делятся на обстоятельственные и определительные.
+              Наречия, образованные от качественных прилагательных, имеют степени сравнения (сравнительную, превосходную).
             </td>
             <td className="polish"></td>
             <td className="english"></td>
@@ -565,6 +565,44 @@ export default class ComparisonTable extends Component {
               Предлог
             </td>
             <td className="service-cell" colspan="8"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Характеристика
+            </td>
+            <td className="table-warning russian">
+              Делятся на простые, сложные и составные. 
+            </td>
+            <td className="polish"></td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature category">
+              Союз
+            </td>
+            <td className="service-cell" colspan="8"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Характеристика
+            </td>
+            <td className="table-warning russian">
+              По составу делятся на простые, сложные и составные.
+              По значению делятся на сочинительные и подчинительные.
+            </td>
+            <td className="polish"></td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
           </tr>
 
         </tbody>
