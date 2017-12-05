@@ -503,6 +503,70 @@ export default class ComparisonTable extends Component {
             <td className="italian"></td>
           </tr>
 
+          <tr>
+            <td className="language-feature category">
+              Местоимение
+            </td>
+            <td className="service-cell" colspan="8"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Характеристика
+            </td>
+            <td className="table-success russian">
+              Разряды:
+              <ul>
+                <li>личные,</li>
+                <li>притяжательные,</li>
+                <li>возвратные,</li>
+                <li>неопределённые,</li>
+                <li>указательные,</li>
+                <li>вопросительные,</li>
+                <li>относительные,</li>
+                <li>взаимные,</li>
+                <li>определительные,</li>
+                <li>отрицательные.</li>
+              </ul>
+            </td>
+            <td className="polish"></td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature category">
+              Наречие
+            </td>
+            <td className="service-cell" colspan="8"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Характеристика
+            </td>
+            <td className="table-success russian">
+              Неизменяемое. Делятся на обстоятельственные и определительные с несколькими подгруппами у каждых.
+              Качественные наречия, образованные от качественных прилагательных, имеют степени сравнения (сравнительную, превосходную).
+            </td>
+            <td className="polish"></td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature category">
+              Предлог
+            </td>
+            <td className="service-cell" colspan="8"></td>
+          </tr>
+
         </tbody>
       </table>
     )
