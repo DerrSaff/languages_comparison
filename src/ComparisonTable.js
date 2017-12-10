@@ -46,14 +46,20 @@ export default class ComparisonTable extends Component {
             <td rowSpan="50" className="no-language-selected centered-text">
               Выберите язык из списка сверху
             </td>
-            <td className="table-success russian">
+            <td className="russian">
               <ul>
                 <li>Восточнославянская группа</li>
                 <li>Общее число носителей в мире ~ 260 млн человек</li>
                 <li>Преимущественно флективный, синтетический.</li>
               </ul>
             </td>
-            <td className="polish"></td>
+            <td className="polish">
+            <ul>
+                <li>Западнославянская группа</li>
+                <li>Общее число носителей в мире ~ 40 млн человек</li>
+                <li>Преимущественно флективный, синтетический.</li>
+              </ul>
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
@@ -135,7 +141,15 @@ export default class ComparisonTable extends Component {
                 <li>разноместное ударение.</li>
               </ul>
             </td>
-            <td className="polish"></td>
+            <td className="table-danger polish">
+            <ul>
+                <li>носовые гласные (на деле - сочетание чистых гласных с носовыми согласными);</li>
+                <li>отсутствие редукции безударных гласных;</li>
+                <li>мягкие гласные и согласные;</li>
+                <li>много всяких шипящих звуков;</li>
+                <li>ударение почти всегда ставится на предпоследний слог.</li>
+              </ul>
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
@@ -150,7 +164,7 @@ export default class ComparisonTable extends Component {
             <td className="table-success russian">
               Нет.
             </td>
-            <td className="polish">
+            <td className="table-success polish">
               Нет.
             </td>
             <td className="table-warning english">
