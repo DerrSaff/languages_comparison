@@ -51,16 +51,25 @@ export default class ComparisonTable extends Component {
                 <li>Восточнославянская группа</li>
                 <li>Общее число носителей в мире ~ 260 млн человек</li>
                 <li>Преимущественно флективный, синтетический.</li>
+                <li>Свободный порядок слов</li>
               </ul>
             </td>
             <td className="polish">
-            <ul>
+              <ul>
                 <li>Западнославянская группа</li>
                 <li>Общее число носителей в мире ~ 40 млн человек</li>
                 <li>Преимущественно флективный, синтетический.</li>
+                <li>Свободный порядок слов</li>
               </ul>
             </td>
-            <td className="english"></td>
+            <td className="english">
+              <ul>
+                <li>Западногерманская группа</li>
+                <li>Общее число носителей в мире ~ 603 млн человек</li>
+                <li>Преимущественно флективный, синтетический.</li>
+                <li>Свободный порядок слов</li>
+              </ul>
+            </td>
             <td className="german"></td>
             <td className="spanish"></td>
             <td className="french"></td>
@@ -142,7 +151,7 @@ export default class ComparisonTable extends Component {
               </ul>
             </td>
             <td className="table-danger polish">
-            <ul>
+              <ul>
                 <li>носовые гласные (на деле - сочетание чистых гласных с носовыми согласными);</li>
                 <li>отсутствие редукции безударных гласных;</li>
                 <li>мягкие гласные и согласные;</li>
@@ -196,8 +205,9 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Род
             </td>
-            <td className="table-danger russian">Три основных рода: мужской, женский. Также есть общий и парный род.</td>
-            <td className="polish"></td>
+            <td className="table-danger russian">Три основных рода: мужской, средний, женский. Также есть общий и парный род.</td>
+            <td className="table-danger polish">Три рода: мужской, средний, женский.
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
@@ -220,7 +230,18 @@ export default class ComparisonTable extends Component {
                 <li>предложный.</li>
               </ul>
             </td>
-            <td className="polish"></td>
+            <td className="table-danger polish">
+              Семь падежей:
+              <ul>
+                <li>именительный,</li>
+                <li>родительный,</li>
+                <li>дательный,</li>
+                <li>винительный,</li>
+                <li>творительный,</li>
+                <li>предложный,</li>
+                <li>звательный.</li>
+              </ul>
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
@@ -235,7 +256,9 @@ export default class ComparisonTable extends Component {
             <td className="table-success russian">
               Одушевлённые - названия лиц и животных. Неодушевлённые - всё остальное.
             </td>
-            <td className="polish"></td>
+            <td className="table-success polish">
+              Одушевлённые - названия лиц и животных. Неодушевлённые - всё остальное.
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
@@ -250,7 +273,9 @@ export default class ComparisonTable extends Component {
             <td className="table-success russian">
               Единственное, множественное. Двойственное как особая форма.
             </td>
-            <td className="polish"></td>
+            <td className="table-success polish">
+              Единственное, множественное. Двойственное как особая форма.
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
@@ -262,10 +287,12 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Склонение
             </td>
-            <td className="table-success russian">
+            <td className="table-warning russian">
               Три склонения.
             </td>
-            <td className="polish"></td>
+            <td className="table-warning polish">
+              Три склонения.
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
@@ -563,8 +590,9 @@ export default class ComparisonTable extends Component {
               Характеристика
             </td>
             <td className="table-success russian">
-              Неизменяемое. Делятся на обстоятельственные и определительные.
-              Наречия, образованные от качественных прилагательных, имеют степени сравнения (сравнительную, превосходную).
+              Неизменяемое. Делятся на обстоятельственные и определительные. Наречия,
+              образованные от качественных прилагательных, имеют степени сравнения
+              (сравнительную, превосходную).
             </td>
             <td className="polish"></td>
             <td className="english"></td>
@@ -586,7 +614,7 @@ export default class ComparisonTable extends Component {
               Характеристика
             </td>
             <td className="table-warning russian">
-              Делятся на простые, сложные и составные. 
+              Делятся на простые, сложные и составные.
             </td>
             <td className="polish"></td>
             <td className="english"></td>
@@ -608,8 +636,8 @@ export default class ComparisonTable extends Component {
               Характеристика
             </td>
             <td className="table-warning russian">
-              По составу делятся на простые, сложные и составные.
-              По значению делятся на сочинительные и подчинительные.
+              По составу делятся на простые, сложные и составные. По значению делятся на
+              сочинительные и подчинительные.
             </td>
             <td className="polish"></td>
             <td className="english"></td>
