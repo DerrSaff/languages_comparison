@@ -45,15 +45,15 @@ table {
   font-size: 1.4rem;
 }
 
-.table-success {
+.difficulty-easy {
   background-color: #c3e6cb;
 }
 
-.table-warning {
+.difficulty-medium {
   background-color: #ffeeba;
 }
 
-.table-danger {
+.difficulty-high {
   background-color: #f5c6cb;
 }
 

@@ -48,26 +48,26 @@ export default class ComparisonTable extends Component {
             </td>
             <td className="russian">
               <ul>
-                <li>Восточнославянская группа</li>
-                <li>Общее число носителей в мире ~ 260 млн человек</li>
-                <li>Преимущественно флективный, синтетический.</li>
-                <li>Свободный порядок слов</li>
+                <li>Восточнославянская группа;</li>
+                <li>Общее число носителей в мире ~ 260 млн человек;</li>
+                <li>Преимущественно флективный, синтетический язык;</li>
+                <li>Свободный порядок слов (SVO).</li>
               </ul>
             </td>
             <td className="polish">
               <ul>
-                <li>Западнославянская группа</li>
-                <li>Общее число носителей в мире ~ 40 млн человек</li>
-                <li>Преимущественно флективный, синтетический.</li>
-                <li>Свободный порядок слов</li>
+                <li>Западнославянская группа;</li>
+                <li>Общее число носителей в мире ~ 40 млн человек;</li>
+                <li>Преимущественно флективный, синтетический язык.</li>
+                <li>Свободный порядок слов (SVO).</li>
               </ul>
             </td>
             <td className="english">
               <ul>
-                <li>Западногерманская группа</li>
-                <li>Общее число носителей в мире ~ 603 млн человек</li>
-                <li>Преимущественно флективный, синтетический.</li>
-                <li>Свободный порядок слов</li>
+                <li>Западногерманская группа;</li>
+                <li>Общее число носителей в мире ~ 603 млн человек;</li>
+                <li>Аналитический язык;</li>
+                <li>Фиксированный порядок слов (SVO).</li>
               </ul>
             </td>
             <td className="german"></td>
@@ -80,32 +80,32 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Алфавит
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Кириллица
               <br/>Необычные буквы: Щ, Ъ, Э, Ё
             </td>
-            <td className="table-warning polish">
+            <td className="difficulty-medium polish">
               Латиница
               <br/>Необычные буквы: Ą ą, Ć ć, Ę ę, Ł ł, Ń ń, Ó ó, Ś ś, Ź ź
             </td>
-            <td className="table-success english">
+            <td className="difficulty-easy english">
               Латиница
             </td>
-            <td className="table-success german">
+            <td className="difficulty-easy german">
               Латиница
               <br/>Необычные буквы: Ä ä, Ö ö, Ü ü + лигатура ẞ ß
             </td>
-            <td className="table-success spanish">
+            <td className="difficulty-easy spanish">
               Латиница
               <br/>Необычные буквы: Ñ ñ. Гласные с диакритикой: á, é, í, ó, ú, ü
             </td>
-            <td className="table-warning french">
+            <td className="difficulty-medium french">
               Латиница
               <br/>
               Много гласных с диакритикой: Â â, À à, Éé, Êê, Èè, Ëë, Çç, Îî, Ïï, Ôô, Ûû, Ùù,
               Üü, Ÿÿ
             </td>
-            <td className="table-warning italian">
+            <td className="difficulty-medium italian">
               Латиница
               <br/>Много гласных с диакритикой: à, è, é, ì, í, î, ò, ó, ù, ú
             </td>
@@ -115,20 +115,20 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Диграфы / триграфы
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Нет
             </td>
-            <td className="table-success polish">
+            <td className="difficulty-easy polish">
               cz, sz, ch, dz
             </td>
-            <td className="table-danger english">
+            <td className="difficulty-high english">
               ae, ai/ay, ea/ee, au/aw, ei/ey, eu/ew, oi/oy, ie/ye, oa, ue/ui, oo, ou, ow, ph,
               th, ch, sh, wh
             </td>
-            <td className="table-success german">
+            <td className="difficulty-easy german">
               ei, ey, au, äu, eu, ch, sch, tsch
             </td>
-            <td className="table-success spanish">
+            <td className="difficulty-easy spanish">
               ch, gu, ll, qu, rr
             </td>
             <td className="french">
@@ -143,14 +143,14 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Фонетика
             </td>
-            <td className="table-danger russian">
+            <td className="difficulty-high russian">
               <ul>
                 <li>мягкие гласные и согласные;</li>
                 <li>редукция гласных и согласных;</li>
                 <li>разноместное ударение.</li>
               </ul>
             </td>
-            <td className="table-danger polish">
+            <td className="difficulty-high polish">
               <ul>
                 <li>носовые гласные (на деле - сочетание чистых гласных с носовыми согласными);</li>
                 <li>отсутствие редукции безударных гласных;</li>
@@ -170,19 +170,19 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Артикль
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Нет.
             </td>
-            <td className="table-success polish">
+            <td className="difficulty-easy polish">
               Нет.
             </td>
-            <td className="table-warning english">
+            <td className="difficulty-medium english">
               <ul>
                 <li>Определённый "the".</li>
                 <li>Неопределённый "a" или "an".</li>
               </ul>
             </td>
-            <td className="table-danger german">
+            <td className="difficulty-high german">
               <ul>
                 <li>Зависит от рода, числа и падежа.</li>
                 <li>Определённый "der", "die", "das" и его формы.</li>
@@ -205,8 +205,8 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Род
             </td>
-            <td className="table-danger russian">Три основных рода: мужской, средний, женский. Также есть общий и парный род.</td>
-            <td className="table-danger polish">Три рода: мужской, средний, женский.
+            <td className="difficulty-high russian">Три основных рода: мужской, средний, женский. Также есть общий и парный род.</td>
+            <td className="difficulty-high polish">Три рода: мужской, средний, женский.
             </td>
             <td className="english"></td>
             <td className="german"></td>
@@ -219,7 +219,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Падеж
             </td>
-            <td className="table-danger russian">
+            <td className="difficulty-high russian">
               Шесть основных падежей:
               <ul>
                 <li>именительный,</li>
@@ -230,7 +230,7 @@ export default class ComparisonTable extends Component {
                 <li>предложный.</li>
               </ul>
             </td>
-            <td className="table-danger polish">
+            <td className="difficulty-high polish">
               Семь падежей:
               <ul>
                 <li>именительный,</li>
@@ -253,10 +253,10 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Одушевлённость
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Одушевлённые - названия лиц и животных. Неодушевлённые - всё остальное.
             </td>
-            <td className="table-success polish">
+            <td className="difficulty-easy polish">
               Одушевлённые - названия лиц и животных. Неодушевлённые - всё остальное.
             </td>
             <td className="english"></td>
@@ -270,10 +270,10 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Число
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Единственное, множественное. Двойственное как особая форма.
             </td>
-            <td className="table-success polish">
+            <td className="difficulty-easy polish">
               Единственное, множественное. Двойственное как особая форма.
             </td>
             <td className="english"></td>
@@ -287,10 +287,10 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Склонение
             </td>
-            <td className="table-warning russian">
+            <td className="difficulty-medium russian">
               Три склонения.
             </td>
-            <td className="table-warning polish">
+            <td className="difficulty-medium polish">
               Три склонения.
             </td>
             <td className="english"></td>
@@ -311,7 +311,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Род
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Три: мужской, женский, средний.
             </td>
             <td className="polish"></td>
@@ -326,7 +326,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Число
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Два: единственное, множественное.
             </td>
             <td className="polish"></td>
@@ -341,7 +341,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Аспект
             </td>
-            <td className="table-warning russian">
+            <td className="difficulty-medium russian">
               Совершенный и несовершенный вид.
             </td>
             <td className="polish"></td>
@@ -356,7 +356,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Время
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Прошлое, настоящее, будущее.
             </td>
             <td className="polish"></td>
@@ -371,7 +371,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Наклонение
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Три: изъявительное, условное, повелительное.
             </td>
             <td className="polish"></td>
@@ -386,7 +386,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Залог
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Два: действительный (актив), страдательный (пассив).
             </td>
             <td className="polish"></td>
@@ -401,7 +401,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Спряжение
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Два спряжения.
             </td>
             <td className="polish"></td>
@@ -423,7 +423,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Характеристика
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Может иметь краткую форму.
               <br/>
               Три разряда прилагательных:
@@ -445,7 +445,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Род
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Три: мужской, женский, средний.
             </td>
             <td className="polish"></td>
@@ -460,7 +460,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Падеж
             </td>
-            <td className="table-warning russian">
+            <td className="difficulty-medium russian">
               Склоняется по падежам в зависимости от существительного.
             </td>
             <td className="polish"></td>
@@ -475,7 +475,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Число
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Два: единственное, множественное.
             </td>
             <td className="polish"></td>
@@ -490,7 +490,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Степени сравнения
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Положительная, сравнительная, превосходная.
             </td>
             <td className="polish"></td>
@@ -512,7 +512,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Характеристика
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Делится на четыре разряда:
               <ul>
                 <li>количественные,</li>
@@ -533,7 +533,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Сочетание
             </td>
-            <td className="table-danger russian">
+            <td className="difficulty-high russian">
               Изменяется по числу, роду, падежу.
             </td>
             <td className="polish"></td>
@@ -555,7 +555,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Характеристика
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Разряды:
               <ul>
                 <li>личные,</li>
@@ -589,7 +589,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Характеристика
             </td>
-            <td className="table-success russian">
+            <td className="difficulty-easy russian">
               Неизменяемое. Делятся на обстоятельственные и определительные. Наречия,
               образованные от качественных прилагательных, имеют степени сравнения
               (сравнительную, превосходную).
@@ -613,7 +613,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Характеристика
             </td>
-            <td className="table-warning russian">
+            <td className="difficulty-medium russian">
               Делятся на простые, сложные и составные.
             </td>
             <td className="polish"></td>
@@ -635,7 +635,7 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Характеристика
             </td>
-            <td className="table-warning russian">
+            <td className="difficulty-medium russian">
               По составу делятся на простые, сложные и составные. По значению делятся на
               сочинительные и подчинительные.
             </td>
