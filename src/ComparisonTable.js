@@ -159,7 +159,16 @@ export default class ComparisonTable extends Component {
                 <li>ударение почти всегда ставится на предпоследний слог.</li>
               </ul>
             </td>
-            <td className="english"></td>
+            <td className="difficulty-medium english">
+              <ul>
+                <li>почти полное отсутствие палатализованных согласных;</li>
+                <li>отсутствие оглушения конечных звонких согласных;</li>
+                <li>сильная редукция гласных;</li>
+                <li>редкая ассимиляция и диссимиляция звуков;</li>
+                <li>разноместное ударение;</li>
+                <li>необычные звуки - межзубные [θ] и [ð].</li>
+              </ul>
+            </td>
             <td className="german"></td>
             <td className="spanish"></td>
             <td className="french"></td>
