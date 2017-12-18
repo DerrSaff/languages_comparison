@@ -323,7 +323,9 @@ export default class ComparisonTable extends Component {
             <td className="difficulty-medium russian">
               Совершенный и несовершенный вид.
             </td>
-            <td className="polish"></td>
+            <td className="difficulty-medium polish">
+              Совершенный и несовершенный вид.
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
@@ -338,7 +340,9 @@ export default class ComparisonTable extends Component {
             <td className="difficulty-easy russian">
               Прошлое, настоящее, будущее.
             </td>
-            <td className="polish"></td>
+            <td className="difficulty-easy polish">
+              Прошлое, настоящее, будущее.
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
@@ -353,7 +357,9 @@ export default class ComparisonTable extends Component {
             <td className="difficulty-easy russian">
               Три: изъявительное, условное, повелительное.
             </td>
-            <td className="polish"></td>
+            <td className="difficulty-easy polish">
+              Три: изъявительное, условное, повелительное.
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
@@ -365,10 +371,12 @@ export default class ComparisonTable extends Component {
             <td className="language-feature">
               Залог
             </td>
-            <td className="difficulty-easy russian">
-              Два: действительный (актив), страдательный (пассив).
+            <td className="difficulty-medium russian">
+              Три: действительный (актив), страдательный (пассив), возвратный (рефлексив).
             </td>
-            <td className="polish"></td>
+            <td className="difficulty-medium polish">
+              Три: действительный (актив), страдательный (пассив), возвратный (рефлексив).
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
@@ -383,7 +391,9 @@ export default class ComparisonTable extends Component {
             <td className="difficulty-easy russian">
               Два спряжения.
             </td>
-            <td className="polish"></td>
+            <td className="difficulty-high polish">
+              11 спряжений.
+            </td>
             <td className="english"></td>
             <td className="german"></td>
             <td className="spanish"></td>
