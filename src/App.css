@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -8,11 +13,6 @@ body {
   font-family: sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .box {
   border: 1px grey solid;
   border-radius: 1%;
@@ -20,7 +20,6 @@ body {
   padding: 1rem;
   margin: 1rem;
 }
-
 
 .selector {
   display: flex;
@@ -74,7 +73,7 @@ th {
 td, th {
   display: table-cell;
   border: 1px solid #e9ecef;
-  padding: .3rem;
+  padding: .5rem;
 }
 
 .language-feature {
