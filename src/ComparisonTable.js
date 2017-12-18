@@ -204,13 +204,6 @@ export default class ComparisonTable extends Component {
           </tr>
 
           <tr>
-            <td className="language-feature category">
-              Имя существительное
-            </td>
-            <td className="service-cell" colspan="8"></td>
-          </tr>
-
-          <tr>
             <td className="language-feature">
               Род
             </td>
@@ -222,6 +215,30 @@ export default class ComparisonTable extends Component {
             <td className="spanish"></td>
             <td className="french"></td>
             <td className="italian"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature">
+              Число
+            </td>
+            <td className="difficulty-easy russian">
+              Единственное, множественное. Двойственное как особая форма.
+            </td>
+            <td className="difficulty-easy polish">
+              Единственное, множественное. Двойственное как особая форма.
+            </td>
+            <td className="english"></td>
+            <td className="german"></td>
+            <td className="spanish"></td>
+            <td className="french"></td>
+            <td className="italian"></td>
+          </tr>
+
+          <tr>
+            <td className="language-feature category">
+              Имя существительное
+            </td>
+            <td className="service-cell" colspan="8"></td>
           </tr>
 
           <tr>
@@ -277,23 +294,6 @@ export default class ComparisonTable extends Component {
 
           <tr>
             <td className="language-feature">
-              Число
-            </td>
-            <td className="difficulty-easy russian">
-              Единственное, множественное. Двойственное как особая форма.
-            </td>
-            <td className="difficulty-easy polish">
-              Единственное, множественное. Двойственное как особая форма.
-            </td>
-            <td className="english"></td>
-            <td className="german"></td>
-            <td className="spanish"></td>
-            <td className="french"></td>
-            <td className="italian"></td>
-          </tr>
-
-          <tr>
-            <td className="language-feature">
               Склонение
             </td>
             <td className="difficulty-medium russian">
@@ -314,36 +314,6 @@ export default class ComparisonTable extends Component {
               Глагол
             </td>
             <td className="service-cell" colspan="8"></td>
-          </tr>
-
-          <tr>
-            <td className="language-feature">
-              Род
-            </td>
-            <td className="difficulty-easy russian">
-              Три: мужской, женский, средний.
-            </td>
-            <td className="polish"></td>
-            <td className="english"></td>
-            <td className="german"></td>
-            <td className="spanish"></td>
-            <td className="french"></td>
-            <td className="italian"></td>
-          </tr>
-
-          <tr>
-            <td className="language-feature">
-              Число
-            </td>
-            <td className="difficulty-easy russian">
-              Два: единственное, множественное.
-            </td>
-            <td className="polish"></td>
-            <td className="english"></td>
-            <td className="german"></td>
-            <td className="spanish"></td>
-            <td className="french"></td>
-            <td className="italian"></td>
           </tr>
 
           <tr>
@@ -452,40 +422,10 @@ export default class ComparisonTable extends Component {
 
           <tr>
             <td className="language-feature">
-              Род
-            </td>
-            <td className="difficulty-easy russian">
-              Три: мужской, женский, средний.
-            </td>
-            <td className="polish"></td>
-            <td className="english"></td>
-            <td className="german"></td>
-            <td className="spanish"></td>
-            <td className="french"></td>
-            <td className="italian"></td>
-          </tr>
-
-          <tr>
-            <td className="language-feature">
               Падеж
             </td>
             <td className="difficulty-medium russian">
               Склоняется по падежам в зависимости от существительного.
-            </td>
-            <td className="polish"></td>
-            <td className="english"></td>
-            <td className="german"></td>
-            <td className="spanish"></td>
-            <td className="french"></td>
-            <td className="italian"></td>
-          </tr>
-
-          <tr>
-            <td className="language-feature">
-              Число
-            </td>
-            <td className="difficulty-easy russian">
-              Два: единственное, множественное.
             </td>
             <td className="polish"></td>
             <td className="english"></td>
